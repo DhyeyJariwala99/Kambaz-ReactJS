@@ -4,7 +4,7 @@ export default function Lab1() {
   return (
     <div id="wd-lab1">
       <h1> Lab 1 </h1>
-      <h2>Lab1- Dhyey Jariwala</h2>
+      <h2>Lab1- Dhyey Jariwala Section 5</h2>
 
       <a href="https://github.com/DhyeyJariwala99/Kambaz-ReactJS" id="wd-github">
           My GitHub Repository
@@ -326,4 +326,5 @@ export default function Lab1() {
       </div>
     </div>
   );
+
 }
