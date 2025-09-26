@@ -1,5 +1,5 @@
 import Modules from "../Modules/page";
-import CourseStatus from "./Status";
+import CourseStatus from "./status";
 
 export default function Home() {
   return (
@@ -26,4 +26,5 @@ export default function Home() {
       </table>
     </div>
   );
+
 }
