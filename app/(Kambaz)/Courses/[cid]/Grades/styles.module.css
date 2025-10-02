@@ -1,0 +1,330 @@
+
+.gradesContainer {
+  padding: 20px;
+  background: white;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #2D3B45;
+  margin: 0;
+}
+
+.printBtn {
+  padding: 8px 16px;
+  background: white;
+  border: 1px solid #C7CDD1;
+  border-radius: 3px;
+  color: #2D3B45;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.printBtn:hover {
+  background: #F5F5F5;
+}
+
+.filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  align-items: flex-end;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.filterLabel {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2D3B45;
+}
+
+.filterSelect {
+  padding: 10px 14px;
+  border: 1px solid #C7CDD1;
+  border-radius: 3px;
+  background: white;
+  font-size: 14px;
+  cursor: pointer;
+  min-width: 250px;
+}
+
+.applyBtn {
+  padding: 10px 20px;
+  background: #D4989D;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.applyBtn:hover {
+  background: #C4888D;
+}
+
+.mainContent {
+  display: flex;
+  gap: 20px;
+}
+
+.tableWrapper {
+  flex: 1;
+}
+
+.gradesTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border: 1px solid #C7CDD1;
+}
+
+.gradesTable thead {
+  background: #F5F5F5;
+}
+
+.gradesTable th {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 700;
+  color: #2D3B45;
+  border-bottom: 2px solid #C7CDD1;
+}
+
+.thName {
+  width: 25%;
+}
+
+.thDue {
+  width: 18%;
+}
+
+.thSubmitted {
+  width: 18%;
+}
+
+.thStatus {
+  width: 15%;
+}
+
+.thScore {
+  width: 24%;
+}
+
+.gradesTable tbody tr {
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.gradesTable tbody tr:hover {
+  background: #FAFAFA;
+}
+
+.gradesTable td {
+  padding: 14px 16px;
+  font-size: 14px;
+  color: #2D3B45;
+}
+
+.tdName {
+  font-weight: 400;
+}
+
+.assignmentName {
+  margin-bottom: 2px;
+}
+
+.assignmentLink {
+  color: #C83E4D;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.assignmentLink:hover {
+  text-decoration: underline;
+}
+
+.assignmentCategory {
+  font-size: 12px;
+  color: #6B7780;
+}
+
+.tdDue,
+.tdSubmitted {
+  color: #2D3B45;
+}
+
+.tdScore {
+  font-weight: 600;
+}
+
+.scoreWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scoreIcons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.icon {
+  font-size: 16px;
+  color: #6B7780;
+  cursor: pointer;
+}
+
+.iconWithBadge {
+  position: relative;
+  display: inline-flex;
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: #0374B5;
+  color: white;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 320px;
+  flex-shrink: 0;
+}
+
+.sidebarCard {
+  background: #F5F5F5;
+  border: 1px solid #C7CDD1;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.totalScore {
+  margin-bottom: 16px;
+}
+
+.totalLabel {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2D3B45;
+}
+
+.sidebarSection {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #C7CDD1;
+}
+
+.sidebarSection:last-child {
+  border-bottom: none;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #2D3B45;
+  cursor: pointer;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.showDetailsBtn {
+  width: 100%;
+  padding: 10px 16px;
+  background: white;
+  border: 1px solid #C7CDD1;
+  border-radius: 3px;
+  color: #2D3B45;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.showDetailsBtn:hover {
+  background: #FAFAFA;
+}
+
+.weightSection {
+  margin-top: 16px;
+}
+
+.weightTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2D3B45;
+  margin-bottom: 12px;
+}
+
+.weightTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.weightTable th {
+  text-align: left;
+  padding: 8px 0;
+  font-weight: 600;
+  color: #2D3B45;
+  border-bottom: 1px solid #C7CDD1;
+}
+
+.weightTable td {
+  padding: 8px 0;
+  color: #2D3B45;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.totalRow {
+  font-weight: 700;
+  border-top: 2px solid #2D3B45;
+}
+
+.totalRow td {
+  padding-top: 12px;
+  font-weight: 700;
+}
+
+.infoText {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #6B7780;
+  line-height: 1.6;
+}
+
+.infoText p {
+  margin: 0;
+}

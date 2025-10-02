@@ -1,0 +1,99 @@
+
+.quizzesContainer {
+  padding: 20px;
+  background: #F5F5F5;
+}
+
+.searchBar {
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 16px;
+  padding-left: 40px;
+  border: 1px solid #C7CDD1;
+  border-radius: 4px;
+  font-size: 14px;
+   background: white url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle cx="6" cy="6" r="5" fill="none" stroke="%236B7780" stroke-width="1.5"/><path d="M10 10 L14 14" stroke="%236B7780" stroke-width="1.5" stroke-linecap="round"/></svg>') no-repeat 12px center;
+}
+
+
+.quizSection {
+  background: white;
+  border: 1px solid #C7CDD1;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.sectionHeader {
+  background: #F5F5F5;
+  padding: 14px 20px;
+  border-bottom: 1px solid #C7CDD1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.collapseIcon {
+  font-size: 12px;
+  color: #2D3B45;
+}
+
+.sectionTitle {
+  font-size: 15px;
+  font-weight: 700;
+  color: #2D3B45;
+}
+
+.quizList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.quizItem {
+  padding: 16px 20px;
+  border-bottom: 1px solid #F5F5F5;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  background: white;
+}
+
+.quizItem:last-child {
+  border-bottom: none;
+}
+
+.quizIcon {
+  font-size: 20px;
+  color: #6B7780;
+  margin-top: 2px;
+}
+
+.quizDetails {
+  flex: 1;
+}
+
+.quizTitle {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2D3B45;
+  margin: 0 0 4px 0;
+}
+
+.quizMeta {
+  font-size: 13px;
+  color: #6B7780;
+  line-height: 1.6;
+}
+
+.statusClosed {
+  font-weight: 600;
+  color: #2D3B45;
+}
+
+.separator {
+  margin: 0 6px;
+}

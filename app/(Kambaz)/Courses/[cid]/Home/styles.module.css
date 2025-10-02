@@ -1,0 +1,274 @@
+
+.homeContainer {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: #F5F5F5;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex: 1;
+}
+
+.sidebar {
+  width: 280px;
+  flex-shrink: 0;
+}
+
+.topBar {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.collapseBtn {
+  padding: 8px 16px;
+  background: white;
+  border: 1px solid #C7CDD1;
+  border-radius: 3px;
+  color: #2D3B45;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.collapseBtn:hover {
+  background: #F5F5F5;
+}
+
+/* Module Styling */
+.module {
+  background: white;
+  border: 1px solid #C7CDD1;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.moduleHeader {
+  background: #F5F5F5;
+  padding: 14px 20px;
+  border-bottom: 1px solid #C7CDD1;
+}
+
+.moduleTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #2D3B45;
+}
+
+.collapseIcon {
+  font-size: 12px;
+  color: #2D3B45;
+}
+
+.moduleBody {
+  padding: 0;
+}
+
+/* Lesson Section Styling */
+.lessonSection {
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.lessonSection:last-child {
+  border-bottom: none;
+}
+
+.lessonHeader {
+  padding: 14px 20px;
+  padding-left: 40px;
+  background: white;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.lessonTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #2D3B45;
+  letter-spacing: 0.3px;
+}
+
+.lessonContent {
+  padding: 0;
+}
+
+.lessonItem {
+  padding: 12px 20px;
+  padding-left: 60px;
+  background: #F9FAFB;
+  border-bottom: 1px solid #F5F5F5;
+  font-size: 14px;
+  color: #2D3B45;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lessonItem:last-child {
+  border-bottom: none;
+}
+
+.lessonItem:nth-child(odd) {
+  background: white;
+}
+
+.lessonItem:nth-child(even) {
+  background: #F9FAFB;
+}
+
+.linkIcon {
+  color: #6B7780;
+  font-size: 14px;
+}
+
+.assignmentIcon {
+  color: #6B7780;
+  font-size: 16px;
+}
+
+.documentIcon {
+  color: #6B7780;
+  font-size: 16px;
+}
+
+.contentLink {
+  color: #C83E4D;
+  text-decoration: none;
+  flex: 1;
+}
+
+.contentLink:hover {
+  text-decoration: underline;
+}
+
+.contentText {
+  color: #2D3B45;
+  font-weight: 600;
+  flex: 1;
+}
+
+.metaText {
+  color: #6B7780;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.externalIcon {
+  color: #C83E4D;
+  font-size: 14px;
+  margin-left: auto;
+}
+
+/* Simple content items (for Resources, GitHub, Textbook) */
+.contentItem {
+  padding: 12px 20px;
+  padding-left: 50px;
+  border-bottom: 1px solid #F5F5F5;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.contentItem:last-child {
+  border-bottom: none;
+}
+
+.itemIcon {
+  color: #6B7780;
+  font-size: 16px;
+}
+
+.itemLink {
+  color: #C83E4D;
+  text-decoration: none;
+  flex: 1;
+}
+
+.itemLink:hover {
+  text-decoration: underline;
+}
+
+.itemText {
+  color: #2D3B45;
+  flex: 1;
+}
+
+/* Course Status Sidebar */
+.statusCard {
+  background: white;
+  border: 1px solid #C7CDD1;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.statusTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2D3B45;
+  margin-bottom: 16px;
+}
+
+.statusButtons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.btnUnpublish {
+  flex: 1;
+  padding: 10px;
+  background: white;
+  border: 1px solid #C7CDD1;
+  border-radius: 3px;
+  color: #2D3B45;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btnUnpublish:hover {
+  background: #F5F5F5;
+}
+
+.btnPublish {
+  flex: 1;
+  padding: 10px;
+  background: #127A1B;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btnPublish:hover {
+  background: #0F6416;
+}
+
+.statusLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.statusLink {
+  padding: 10px 14px;
+  border: 1px solid #C7CDD1;
+  border-radius: 3px;
+  color: #0374B5;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: left;
+  display: block;
+  background: white;
+  transition: background 0.2s;
+}
+
+.statusLink:hover {
+  background: #F5F5F5;
+  text-decoration: none;
+}

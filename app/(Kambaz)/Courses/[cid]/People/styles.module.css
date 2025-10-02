@@ -1,0 +1,196 @@
+
+.peopleContainer {
+  padding: 20px;
+  background: white;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid #C7CDD1;
+}
+
+.tab {
+  padding: 12px 24px;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: #6B7780;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 400;
+  margin-bottom: -2px;
+}
+
+.tabActive {
+  color: #2D3B45;
+  font-weight: 600;
+  border-bottom-color: #2D3B45;
+}
+
+.tab:hover {
+  color: #2D3B45;
+}
+
+.studentCardsBtn {
+  padding: 8px 16px;
+  background: white;
+  border: 1px solid #C7CDD1;
+  border-radius: 3px;
+  color: #2D3B45;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.studentCardsBtn:hover {
+  background: #F5F5F5;
+}
+
+.searchSection {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.searchWrapper {
+  flex: 1;
+  max-width: 400px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 16px;
+  padding-left: 40px;
+  border: 1px solid #C7CDD1;
+  border-radius: 4px;
+  font-size: 14px;
+  background: white url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle cx="6" cy="6" r="5" fill="none" stroke="%236B7780" stroke-width="1.5"/><path d="M10 10 L14 14" stroke="%236B7780" stroke-width="1.5" stroke-linecap="round"/></svg>') no-repeat 12px center;
+}
+
+.roleFilter {
+  padding: 10px 16px;
+  border: 1px solid #C7CDD1;
+  border-radius: 4px;
+  background: white;
+  font-size: 14px;
+  cursor: pointer;
+  min-width: 150px;
+  color: #2D3B45;
+}
+
+.peopleTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border: 1px solid #C7CDD1;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.peopleTable thead {
+  background: #F5F5F5;
+}
+
+.peopleTable th {
+  padding: 14px 20px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 700;
+  color: #2D3B45;
+  border-bottom: 2px solid #C7CDD1;
+}
+
+.thName {
+  width: 35%;
+}
+
+.thSection {
+  width: 45%;
+}
+
+.thRole {
+  width: 20%;
+}
+
+.peopleTable tbody tr {
+  border-bottom: 1px solid #F5F5F5;
+  transition: background 0.2s;
+}
+
+.peopleTable tbody tr:hover {
+  background: #FAFAFA;
+}
+
+.rowHighlighted {
+  background: #E8F4FA !important;
+}
+
+.rowHighlighted:hover {
+  background: #D9EDF7 !important;
+}
+
+.tdName,
+.tdSection,
+.tdRole {
+  padding: 14px 20px;
+}
+
+.tdSection,
+.tdRole {
+  color: #6B7780;
+  font-size: 13px;
+}
+
+.personInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatarGray {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #C7CDD1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+  flex-shrink: 0;
+}
+
+.avatarBlue {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #0374B5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+  flex-shrink: 0;
+}
+
+.personName {
+  color: #C83E4D;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.personName:hover {
+  text-decoration: underline;
+}

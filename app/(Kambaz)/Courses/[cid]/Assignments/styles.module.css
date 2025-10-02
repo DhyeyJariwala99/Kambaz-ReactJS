@@ -1,0 +1,149 @@
+
+.assignmentsContainer {
+  padding: 20px;
+  background: white;
+  min-height: 100vh;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.searchWrapper {
+  flex: 1;
+  max-width: 350px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 16px;
+  padding-left: 40px;
+  border: 1px solid #C7CDD1;
+  border-radius: 4px;
+  font-size: 14px;
+  background: white url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle cx="6" cy="6" r="5" fill="none" stroke="%236B7780" stroke-width="1.5"/><path d="M10 10 L14 14" stroke="%236B7780" stroke-width="1.5" stroke-linecap="round"/></svg>') no-repeat 12px center;
+}
+
+.toolbarButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.btnGreen {
+  padding: 10px 20px;
+  background: #127A1B;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+}
+
+.btnGreen:hover {
+  background: #0F6416;
+}
+
+.btnWhite {
+  padding: 10px 20px;
+  background: white;
+  color: #2D3B45;
+  border: 1px solid #C7CDD1;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btnWhite:hover {
+  background: #F5F5F5;
+}
+
+.assignmentSection {
+  background: white;
+  border: 1px solid #C7CDD1;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.sectionHeader {
+  background: #F5F5F5;
+  padding: 14px 20px;
+  border-bottom: 1px solid #C7CDD1;
+}
+
+.sectionLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.collapseIcon {
+  font-size: 12px;
+  color: #2D3B45;
+}
+
+.sectionTitle {
+  font-size: 15px;
+  font-weight: 700;
+  color: #2D3B45;
+}
+
+.assignmentList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.assignmentItem {
+  padding: 16px 20px;
+  border-bottom: 1px solid #F5F5F5;
+  border-left: 4px solid #127A1B;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  background: white;
+}
+
+.assignmentItem:last-child {
+  border-bottom: none;
+}
+
+.assignmentIcon {
+  font-size: 18px;
+  color: #6B7780;
+  margin-top: 2px;
+}
+
+.assignmentDetails {
+  flex: 1;
+}
+
+.assignmentLink {
+  color: #2D3B45;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.assignmentLink:hover {
+  text-decoration: underline;
+  color: #0374B5;
+}
+
+.assignmentMeta {
+  font-size: 13px;
+  color: #6B7780;
+  line-height: 1.5;
+}
+
+.separator {
+  margin: 0 6px;
+}

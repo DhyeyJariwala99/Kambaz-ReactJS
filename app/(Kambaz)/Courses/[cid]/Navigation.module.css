@@ -1,0 +1,38 @@
+.courseNav {
+  padding: 0;
+  background: white;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.navLink {
+  display: block;
+  padding: 14px 20px;
+  color: #C83E4D;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.2s;
+  border-left: 3px solid transparent;
+}
+
+.navLink:hover {
+  background: #F5F5F5;
+  color: #C83E4D;
+  text-decoration: none;
+}
+
+.navLink.active {
+  background: white;
+  border-left-color: #000000;
+  color: #000000;
+  font-weight: 600;
+}
