@@ -1,19 +1,14 @@
-import type { Metadata } from 'next'
-import "bootstrap/dist/css/bootstrap.min.css"
+"use client";
+import { ReactNode } from "react";
+import { Provider } from "react-redux";
+import store from "./Lab4/store";
 
-export const metadata: Metadata = {
-  title: 'Kambaz',
-  description: 'Learning Management System',
-}
-
-export default function RootLayout({
+export default function LabsLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{ children: ReactNode }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  )
+    <Provider store={store}>
+      {children}
+    </Provider>
+  );
 }
