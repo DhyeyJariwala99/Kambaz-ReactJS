@@ -1,0 +1,116 @@
+/* Canvas LMS Color Palette */
+:root {
+  --canvas-red: #C83E4D;
+  --canvas-dark-red: #8B1014;
+  --canvas-navy: #2D3B45;
+  --canvas-blue: #0374B5;
+  --canvas-light-blue: #E8F4FA;
+  --canvas-teal: #008487;
+  --canvas-purple: #8F3E97;
+  --canvas-green: #127A1B;
+  --canvas-orange: #FC5E13;
+  --canvas-dark-gray: #2D3B45;
+  --canvas-medium-gray: #6B7780;
+  --canvas-light-gray: #C7CDD1;
+  --canvas-border: #C7CDD1;
+  --canvas-background: #F5F5F5;
+  --canvas-white: #FFFFFF;
+  --canvas-hover: #F0F0F0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2D3B45;
+  background-color: #F5F5F5;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+td {
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  color: #2D3B45;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 20px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+
+a {
+  color: #0374B5;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 8px 14px;
+  border: 1px solid #C7CDD1;
+  border-radius: 3px;
+  background-color: white;
+  color: #2D3B45;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+button:hover {
+  background-color: #F0F0F0;
+  border-color: #6B7780;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="search"],
+select,
+textarea {
+  padding: 8px 12px;
+  border: 1px solid #C7CDD1;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+  width: 100%;
+  transition: border-color 0.2s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #0374B5;
+  box-shadow: 0 0 0 2px rgba(3, 116, 181, 0.1);
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}

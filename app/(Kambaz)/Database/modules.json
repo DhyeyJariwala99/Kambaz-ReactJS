@@ -1,0 +1,83 @@
+[
+  {
+    "_id": "M101",
+    "name": "Introduction to Rocket Propulsion",
+    "course": "RS101",
+    "lessons": [
+      { "_id": "L101", "name": "History of Rocketry", "module": "M101" },
+      { "_id": "L102", "name": "Rocket Propulsion Fundamentals", "module": "M101" },
+      { "_id": "L103", "name": "Rocket Engine Types", "module": "M101" }
+    ]
+  },
+  {
+    "_id": "M102",
+    "name": "Fuel and Combustion",
+    "course": "RS101",
+    "lessons": [
+      { "_id": "L201", "name": "Rocket Fuel", "module": "M102" },
+      { "_id": "L202", "name": "Combustion Processes", "module": "M102" },
+      { "_id": "L203", "name": "Combustion Instability", "module": "M102" }
+    ]
+  },
+  {
+    "_id": "M103",
+    "name": "Nozzle Design",
+    "course": "RS101",
+    "lessons": [
+      { "_id": "L301", "name": "Nozzle Design", "module": "M103" },
+      { "_id": "L302", "name": "Nozzle Performance", "module": "M103" },
+      { "_id": "L303", "name": "Nozzle Optimization", "module": "M103" }
+    ]
+  },
+  {
+    "_id": "M201",
+    "name": "Fundamentals of Aerodynamics",
+    "course": "RS102",
+    "lessons": [
+      { "_id": "L401", "name": "Introduction to Aerodynamics", "module": "M201" },
+      { "_id": "L402", "name": "Fluid Dynamics", "module": "M201" }
+    ]
+  },
+  {
+    "_id": "M202",
+    "name": "Subsonic and Supersonic Flow",
+    "course": "RS102",
+    "lessons": [
+      { "_id": "L501", "name": "Subsonic Flow", "module": "M202" },
+      { "_id": "L502", "name": "Supersonic Flow", "module": "M202" }
+    ]
+  },
+  {
+    "_id": "M203",
+    "name": "Aerodynamic Heating",
+    "course": "RS102",
+    "lessons": [
+      { "_id": "L601", "name": "Aerodynamic Heating", "module": "M203" }
+    ]
+  },
+  {
+    "_id": "M301",
+    "name": "Spacecraft Structural Design",
+    "course": "RS103",
+    "lessons": [
+      { "_id": "L701", "name": "Structural Design", "module": "M301" },
+      { "_id": "L702", "name": "Materials Selection", "module": "M301" }
+    ]
+  },
+  {
+    "_id": "M302",
+    "name": "Orbital Mechanics",
+    "course": "RS103",
+    "lessons": [
+      { "_id": "L801", "name": "Orbital Dynamics", "module": "M302" }
+    ]
+  },
+  {
+    "_id": "M303",
+    "name": "Spacecraft Systems Engineering",
+    "course": "RS103",
+    "lessons": [
+      { "_id": "L901", "name": "Systems Engineering", "module": "M303" }
+    ]
+  }
+]
