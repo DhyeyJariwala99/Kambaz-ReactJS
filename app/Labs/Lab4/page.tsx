@@ -1,6 +1,4 @@
-"use client"
-import { Provider } from "react-redux";
-import store from "./store";
+"use client";
 import ClickEvent from "./ClickEvent";
 import PassingDataOnEvent from "./PassingDataOnEvent";
 import PassingFunctions from "./PassingFunctions";
@@ -20,22 +18,20 @@ export default function Lab4() {
   }
 
   return (
-    <Provider store={store}>
-      <div id="wd-lab4" className="container">
-        <h2>Lab 4</h2>
-        <ClickEvent />
-        <PassingDataOnEvent />
-        <PassingFunctions theFunction={sayHello} />
-        <EventObject />
-        <Counter />
-        <BooleanStateVariables />
-        <StringStateVariables />
-        <DateStateVariable />
-        <ObjectStateVariable />
-        <ArrayStateVariable />
-        <ParentStateComponent />
-        <ReduxExamples />
-      </div>
-    </Provider>
+    <div id="wd-lab4" className="container">
+      <h2>Lab 4</h2>
+      <ClickEvent />
+      <PassingDataOnEvent />
+      <PassingFunctions theFunction={sayHello} />
+      <EventObject />
+      <Counter />
+      <BooleanStateVariables />
+      <StringStateVariables />
+      <DateStateVariable />
+      <ObjectStateVariable />
+      <ArrayStateVariable />
+      <ParentStateComponent />
+      <ReduxExamples />
+    </div>
   );
 }
