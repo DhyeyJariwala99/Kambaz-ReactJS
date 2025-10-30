@@ -2,7 +2,7 @@
 import { Provider } from "react-redux";
 import store from "./store";
 import ClickEvent from "./ClickEvent";
-import PassingDataOnEvent from "./PassingDataOnEvent.tsx";
+import PassingDataOnEvent from "./PassingDataOnEvent";
 import PassingFunctions from "./PassingFunctions";
 import EventObject from "./EventObject";
 import Counter from "./Counter";
