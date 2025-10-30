@@ -1,34 +1,37 @@
-import Link from "next/link";
-import TOC from "./TOC";
+"use client";
+import ClickEvent from "./ClickEvent";
+import PassingDataOnEvent from "./PassingDataOnEvent";
+import PassingFunctions from "./PassingFunctions";
+import EventObject from "./EventObject";
+import Counter from "./Counter";
+import BooleanStateVariables from "./BooleanStateVariables";
+import StringStateVariables from "./StringStateVariables";
+import DateStateVariable from "./DateStateVariable";
+import ObjectStateVariable from "./ObjectStateVariable";
+import ArrayStateVariable from "./ArrayStateVariable";
+import ParentStateComponent from "./ParentStateComponent";
+import ReduxExamples from "./ReduxExamples/page";
 
-export default function Labs() {
+export default function Lab4() {
+  function sayHello() {
+    alert("Hello");
+  }
+
   return (
-    <div id="wd-labs" className="container">
-      <h1>Labs</h1>
-      <p>Dhyey Jariwala</p> {/* Replace with your full name */}
-      <TOC />
-      <ul className="list-group mt-3">
-        <li className="list-group-item">
-          <Link href="/Labs/Lab1" id="wd-lab1-link">
-            Lab 1: HTML Examples
-          </Link>
-        </li>
-        <li className="list-group-item">
-          <Link href="/Labs/Lab2" id="wd-lab2-link">
-            Lab 2: CSS Basics
-          </Link>
-        </li>
-        <li className="list-group-item">
-          <Link href="/Labs/Lab3" id="wd-lab3-link">
-            Lab 3: JavaScript Fundamentals
-          </Link>
-        </li>
-        <li className="list-group-item">
-          <Link href="/Labs/Lab4" id="wd-lab4-link">
-            Lab 4: State Management
-          </Link>
-        </li>
-      </ul>
+    <div id="wd-lab4" className="container">
+      <h2>Lab 4</h2>
+      <ClickEvent />
+      <PassingDataOnEvent />
+      <PassingFunctions theFunction={sayHello} />
+      <EventObject />
+      <Counter />
+      <BooleanStateVariables />
+      <StringStateVariables />
+      <DateStateVariable />
+      <ObjectStateVariable />
+      <ArrayStateVariable />
+      <ParentStateComponent />
+      <ReduxExamples />
     </div>
   );
 }
