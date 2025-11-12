@@ -207,7 +207,7 @@ export default function Kambaz() {
       <hr />
 
       <Row xs={1} md={5} className="g-4">
-        {courses.map((courseItem) => (
+        {courses.map((courseItem: any) => (
           <Col key={courseItem._id} className="wd-dashboard-course" style={{ width: "300px" }}>
             <Card>
               <Link
